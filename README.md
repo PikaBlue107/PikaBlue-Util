@@ -36,7 +36,7 @@ If loading the file from Pastebin fails, update will not replace the old program
 * If the program path given does not contain the string `lib/`, it will be prepended to the program path before calling the `update` function. This allows the user to skip the `lib/` when typing `update lib/[program]`.
 
 
-## travel.lua [WIP]
+## travel.lua
 Implements movement commands for Turtles that remember initial facing direction and displacement from starting position.
 Very similar to the idea of moveNorth(), moveSouth(), etc, but instead of using cardinal directions, this program uses the initial direction its host Turtle is facing as its "North".
 `travel` also keeps track of the number of blocks this Turtle has moved since initialization with a `Vector`. Movement forward() and backward() is saved on the *Z axis (+/- respectively)*, while right() and left() are on the *X axis (+/-)*, and up() and down() are on the *Y axis (+/-)*
