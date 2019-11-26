@@ -52,6 +52,7 @@ After these calls, the turtle will remember the following displacement:
 * X axis: -1
 * Y axis: 1
 * Z axis: 1
+
 This program uses the following convention to internally store directions as integers:
 * 1 = Right
 * 2 = Forward
