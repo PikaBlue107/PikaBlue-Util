@@ -97,11 +97,11 @@ This program uses the following convention to internally store directions as int
 * Returns
   * number of blocks successfully traveled
   
-`turnRight(num)`: Rotates the Turtle to the right.
+`turnRight(num)`: Rotates the Turtle to the right by 90 degrees for each rotation.
 * Parameters
   * num: Number of rotations to perform
   
-`turnLeft(num)`: Rotates the Turtle to the left.
+`turnLeft(num)`: Rotates the Turtle to the left by 90 degrees for each rotation.
 * Parameters
   * num: Number of rotations to perform
   
